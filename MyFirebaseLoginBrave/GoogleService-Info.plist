@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>417236609992-ruh7ncdd61kv2eao0shmttm2ejroeeu4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.417236609992-ruh7ncdd61kv2eao0shmttm2ejroeeu4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCdPCrJgyvHkFArASl49ZARafs-KL52hgQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>417236609992</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.co.tpsinc.iosstudy.3rd.MyFirebaseLoginBrave</string>
+	<key>PROJECT_ID</key>
+	<string>myfirebaseloginbrave</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myfirebaseloginbrave.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:417236609992:ios:39948081f8e9ff154d2efd</string>
+	<key>DATABASE_URL</key>
+	<string>https://myfirebaseloginbrave.firebaseio.com</string>
+</dict>
+</plist>

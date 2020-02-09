@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A151FA590AA176F3EA517C3 /* Pods_MyFirebaseLoginBrave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445EC00CA704663729FE4BD6 /* Pods_MyFirebaseLoginBrave.framework */; };
+		DE22EB7D23EE6E8F00B5ACC1 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22EB7C23EE6E8F00B5ACC1 /* BookViewController.swift */; };
+		DE22EB8423EE7ED800B5ACC1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22EB8223EE7ED800B5ACC1 /* CustomTableViewCell.swift */; };
+		DE22EB8523EE7ED800B5ACC1 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE22EB8323EE7ED800B5ACC1 /* CustomTableViewCell.xib */; };
 		DE2423AA23E5278C0045B264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2423A923E5278C0045B264 /* AppDelegate.swift */; };
-		DE2423AC23E5278C0045B264 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2423AB23E5278C0045B264 /* SceneDelegate.swift */; };
 		DE2423AE23E5278C0045B264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2423AD23E5278C0045B264 /* ViewController.swift */; };
 		DE2423B123E5278C0045B264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2423AF23E5278C0045B264 /* Main.storyboard */; };
 		DE2423B323E5278D0045B264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2423B223E5278D0045B264 /* Assets.xcassets */; };
 		DE2423B623E5278D0045B264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2423B423E5278D0045B264 /* LaunchScreen.storyboard */; };
+		DE5F5CBA23E5316500481298 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE5F5CB923E5316500481298 /* GoogleService-Info.plist */; };
+		DE5F5CBC23E5607200481298 /* CameraUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F5CBB23E5607200481298 /* CameraUIViewController.swift */; };
+		DE5F5CBE23E569C100481298 /* GPSUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F5CBD23E569C100481298 /* GPSUIViewController.swift */; };
+		DE6C3F7B23ECD17A00F6FD68 /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C3F7A23ECD17A00F6FD68 /* LoginSuccessViewController.swift */; };
+		DEC1055B23F02092006F1AE6 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1055A23F02092006F1AE6 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422597EE6BE4D0B98326960C /* Pods-MyFirebaseLoginBrave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirebaseLoginBrave.release.xcconfig"; path = "Target Support Files/Pods-MyFirebaseLoginBrave/Pods-MyFirebaseLoginBrave.release.xcconfig"; sourceTree = "<group>"; };
+		445EC00CA704663729FE4BD6 /* Pods_MyFirebaseLoginBrave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirebaseLoginBrave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A96954E73E79CC51B7841C9 /* Pods-MyFirebaseLoginBrave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirebaseLoginBrave.debug.xcconfig"; path = "Target Support Files/Pods-MyFirebaseLoginBrave/Pods-MyFirebaseLoginBrave.debug.xcconfig"; sourceTree = "<group>"; };
+		DE22EB7C23EE6E8F00B5ACC1 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		DE22EB8223EE7ED800B5ACC1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DE22EB8323EE7ED800B5ACC1 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		DE2423A623E5278C0045B264 /* MyFirebaseLoginBrave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirebaseLoginBrave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2423A923E5278C0045B264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE2423AB23E5278C0045B264 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE2423AD23E5278C0045B264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE2423B023E5278C0045B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE2423B223E5278D0045B264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2423B523E5278D0045B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2423B723E5278D0045B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5F5CB923E5316500481298 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE5F5CBB23E5607200481298 /* CameraUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUIViewController.swift; sourceTree = "<group>"; };
+		DE5F5CBD23E569C100481298 /* GPSUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSUIViewController.swift; sourceTree = "<group>"; };
+		DE6C3F7A23ECD17A00F6FD68 /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
+		DEC1055A23F02092006F1AE6 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A151FA590AA176F3EA517C3 /* Pods_MyFirebaseLoginBrave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DBD1B9A8F4B35CE4BD1403D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A96954E73E79CC51B7841C9 /* Pods-MyFirebaseLoginBrave.debug.xcconfig */,
+				422597EE6BE4D0B98326960C /* Pods-MyFirebaseLoginBrave.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		64012EF813313BAE55396062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				445EC00CA704663729FE4BD6 /* Pods_MyFirebaseLoginBrave.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE24239D23E5278C0045B264 = {
 			isa = PBXGroup;
 			children = (
 				DE2423A823E5278C0045B264 /* MyFirebaseLoginBrave */,
 				DE2423A723E5278C0045B264 /* Products */,
+				1DBD1B9A8F4B35CE4BD1403D /* Pods */,
+				64012EF813313BAE55396062 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,46 @@
 		DE2423A823E5278C0045B264 /* MyFirebaseLoginBrave */ = {
 			isa = PBXGroup;
 			children = (
-				DE2423A923E5278C0045B264 /* AppDelegate.swift */,
-				DE2423AB23E5278C0045B264 /* SceneDelegate.swift */,
-				DE2423AD23E5278C0045B264 /* ViewController.swift */,
-				DE2423AF23E5278C0045B264 /* Main.storyboard */,
-				DE2423B223E5278D0045B264 /* Assets.xcassets */,
-				DE2423B423E5278D0045B264 /* LaunchScreen.storyboard */,
+				DE2423BF23E528650045B264 /* Views */,
+				DE2423BE23E528550045B264 /* Resource */,
+				DE2423BD23E528470045B264 /* System */,
 				DE2423B723E5278D0045B264 /* Info.plist */,
+				DE5F5CB923E5316500481298 /* GoogleService-Info.plist */,
 			);
 			path = MyFirebaseLoginBrave;
+			sourceTree = "<group>";
+		};
+		DE2423BD23E528470045B264 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				DE2423A923E5278C0045B264 /* AppDelegate.swift */,
+				DE2423B423E5278D0045B264 /* LaunchScreen.storyboard */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		DE2423BE23E528550045B264 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE2423AF23E5278C0045B264 /* Main.storyboard */,
+				DE2423B223E5278D0045B264 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DE2423BF23E528650045B264 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2423AD23E5278C0045B264 /* ViewController.swift */,
+				DE5F5CBB23E5607200481298 /* CameraUIViewController.swift */,
+				DE5F5CBD23E569C100481298 /* GPSUIViewController.swift */,
+				DE6C3F7A23ECD17A00F6FD68 /* LoginSuccessViewController.swift */,
+				DE22EB7C23EE6E8F00B5ACC1 /* BookViewController.swift */,
+				DE22EB8223EE7ED800B5ACC1 /* CustomTableViewCell.swift */,
+				DE22EB8323EE7ED800B5ACC1 /* CustomTableViewCell.xib */,
+				DEC1055A23F02092006F1AE6 /* WeatherViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE2423BA23E5278D0045B264 /* Build configuration list for PBXNativeTarget "MyFirebaseLoginBrave" */;
 			buildPhases = (
+				93B9BB6A931278BBEB6D3413 /* [CP] Check Pods Manifest.lock */,
 				DE2423A223E5278C0045B264 /* Sources */,
 				DE2423A323E5278C0045B264 /* Frameworks */,
 				DE2423A423E5278C0045B264 /* Resources */,
+				9750F2927CC650EB3FE12D34 /* [CP] Embed Pods Frameworks */,
+				BD22938D7640BF8EC6F3FCA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,21 +198,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2423B623E5278D0045B264 /* LaunchScreen.storyboard in Resources */,
+				DE5F5CBA23E5316500481298 /* GoogleService-Info.plist in Resources */,
 				DE2423B323E5278D0045B264 /* Assets.xcassets in Resources */,
+				DE22EB8523EE7ED800B5ACC1 /* CustomTableViewCell.xib in Resources */,
 				DE2423B123E5278C0045B264 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93B9BB6A931278BBEB6D3413 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFirebaseLoginBrave-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9750F2927CC650EB3FE12D34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFirebaseLoginBrave/Pods-MyFirebaseLoginBrave-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFirebaseLoginBrave/Pods-MyFirebaseLoginBrave-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyFirebaseLoginBrave/Pods-MyFirebaseLoginBrave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD22938D7640BF8EC6F3FCA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFirebaseLoginBrave/Pods-MyFirebaseLoginBrave-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFirebaseLoginBrave/Pods-MyFirebaseLoginBrave-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyFirebaseLoginBrave/Pods-MyFirebaseLoginBrave-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE2423A223E5278C0045B264 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5F5CBC23E5607200481298 /* CameraUIViewController.swift in Sources */,
+				DE22EB7D23EE6E8F00B5ACC1 /* BookViewController.swift in Sources */,
 				DE2423AE23E5278C0045B264 /* ViewController.swift in Sources */,
+				DE22EB8423EE7ED800B5ACC1 /* CustomTableViewCell.swift in Sources */,
+				DE6C3F7B23ECD17A00F6FD68 /* LoginSuccessViewController.swift in Sources */,
+				DEC1055B23F02092006F1AE6 /* WeatherViewController.swift in Sources */,
 				DE2423AA23E5278C0045B264 /* AppDelegate.swift in Sources */,
-				DE2423AC23E5278C0045B264 /* SceneDelegate.swift in Sources */,
+				DE5F5CBE23E569C100481298 /* GPSUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +420,13 @@
 		};
 		DE2423BB23E5278D0045B264 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A96954E73E79CC51B7841C9 /* Pods-MyFirebaseLoginBrave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNKLP2U2NQ;
 				INFOPLIST_FILE = MyFirebaseLoginBrave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +440,13 @@
 		};
 		DE2423BC23E5278D0045B264 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422597EE6BE4D0B98326960C /* Pods-MyFirebaseLoginBrave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNKLP2U2NQ;
 				INFOPLIST_FILE = MyFirebaseLoginBrave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
